@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset02.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/icon/iconfont.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div id="top" class=" clear_fix">
+                <div class="logo float_left">
+                    <a href=""><em class="iconfont icon-xiaomi"></em></a>
+                </div>
+                <h1 class="float_left">我的购物车</h1>
+                <p class="float_left">温馨提示: 产品是否购买成功，以最终下单为准哦，请尽快结算</p>
+                <div class="btn float_right">
+                    <a href="">登录</a><span>|</span><a href="">注册</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- core  -->
+        <section id="page-main">
+            <div class="container">
+                <!-- 上部分 -->
+
+                <!-- <div id="loading"></div> -->
+                <!-- <div id="empty"></div> -->
+                <div id="cartBox">
+                    <div class="cart-goods-list">
+                        <ul class="list-head">
+                            <li class="check"><em class="iconfont icon-ok"></em>全选</li>
+                            <li class="show"></li>
+                            <li class="name">商品名称</li>
+                            <li class="Price">单价</li>
+                            <li class="num ">数量</li>
+                            <li class="money">小计</li>
+                            <li class="operate">操作</li>
+                        </ul>
+                        <div class="list-body">
+                            <ul class="goods">
+                                <li class="check"><em class="iconfont icon-ok"></em></li>
+                                <li class="show"><a href=""><img src="./img/pp.jpg" alt=""></a></li>
+                                <li class="name"><a href="">Redmi Note 8 6GB+64GB 曜石黑</a></li>
+                                <li class="Price">1099元</li>
+                                <li class="num ">
+                                    <div class="num-btn">
+                                        <a href="" id="reduce"><em class="iconfont">-</em></a>
+                                        <input type="text" name="" id="goods-num" value="1">
+                                        <a href="" id="and"><em class="iconfont">+</em></a>
+                                    </div>
+                                </li>
+                                <li class="money">1099元</li>
+                                <li class="operate">
+                                    <a href=""><em class="iconfont icon-cuo"> </em></a>
+                                </li>
+                            </ul>
+
+                            <!-- sub  -->
+                            <!-- <div class="subBox"></div>
+                            <div class="subBox"></div>
+                            <div class="subBox"></div> -->
+
+                        </div>
+
+                    </div>
+                    <!-- <div class="add-buy"></div> -->
+                    <div class="pay">
+                        <div class="l">
+                            <a href="">继续购物</a><p>共<span class="all">1</span>件商品,已选择<span class="pick">1</span>件</p>
+                        </div>
+                        <div class="r">
+                            合计:<span class="bill">1099</span>元<a href="">去结算</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 下部 -->
+                <div id="recommend">
+                    <fieldset>
+                        <legend>买购物车中商品的人还买了</legend>
+                    </fieldset>
+                    <div class="show-goods">
+                        <ul class="goods-wrap clear_fix">
+                            <li><a href=""><img src="./img/ka.jpg" alt=""></a></li>
+                            <li class="one">
+                                <dl>
+                                    <dt class="one-img"><a href=""><img src="./img/clock.png" alt=""></a></dt>
+                                    <dd class="one-info"><a href="">小米手环</a></dd>
+                                    <dd class="one-price">99元</dd>
+                                    <dd class="loveORcart">
+                                        <span class="love">35</span>人好评
+                                        <a href="" class="cart">加入购物车</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="one">
+                                <dl>
+                                    <dt class="one-img"><a href=""><img src="./img/clock.png" alt=""></a></dt>
+                                    <dd class="one-info"><a href="">小米手环</a></dd>
+                                    <dd class="one-price">99元</dd>
+                                    <dd class="loveORcart">
+                                        <span class="love">35</span>人好评
+                                        <a href="" class="cart">加入购物车</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="one">
+                                <dl>
+                                    <dt class="one-img"><a href=""><img src="./img/clock.png" alt=""></a></dt>
+                                    <dd class="one-info"><a href="">小米手环</a></dd>
+                                    <dd class="one-price">99元</dd>
+                                    <dd class="loveORcart">
+                                        <span class="love">35</span>人好评
+                                        <a href="" class="cart">加入购物车</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="one">
+                                <dl>
+                                    <dt class="one-img"><a href=""><img src="./img/clock.png" alt=""></a></dt>
+                                    <dd class="one-info"><a href="">小米手环</a></dd>
+                                    <dd class="one-price">99元</dd>
+                                    <dd class="loveORcart">
+                                        <span class="love">35</span>人好评
+                                        <a href="" class="cart">加入购物车</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="one">
+                                <dl>
+                                    <dt class="one-img"><a href=""><img src="./img/clock.png" alt=""></a></dt>
+                                    <dd class="one-info"><a href="">小米手环</a></dd>
+                                    <dd class="one-price">99元</dd>
+                                    <dd class="loveORcart">
+                                        <span class="love">35</span>人好评
+                                        <a href="" class="cart">加入购物车</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="one">
+                                <dl>
+                                    <dt class="one-img"><a href=""><img src="./img/clock.png" alt=""></a></dt>
+                                    <dd class="one-info"><a href="">小米手环</a></dd>
+                                    <dd class="one-price">99元</dd>
+                                    <dd class="loveORcart">
+                                        <span class="love">35</span>人好评
+                                        <a href="" class="cart">加入购物车</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="one">
+                                <dl>
+                                    <dt class="one-img"><a href=""><img src="./img/clock.png" alt=""></a></dt>
+                                    <dd class="one-info"><a href="">小米手环</a></dd>
+                                    <dd class="one-price">99元</dd>
+                                    <dd class="loveORcart">
+                                        <span class="love">35</span>人好评
+                                        <a href="" class="cart">加入购物车</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="one">
+                                <dl>
+                                    <dt class="one-img"><a href=""><img src="./img/clock.png" alt=""></a></dt>
+                                    <dd class="one-info"><a href="">小米手环</a></dd>
+                                    <dd class="one-price">99元</dd>
+                                    <dd class="loveORcart">
+                                        <span class="love">35</span>人好评
+                                        <a href="" class="cart">加入购物车</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="one">
+                                <dl>
+                                    <dt class="one-img"><a href=""><img src="./img/clock.png" alt=""></a></dt>
+                                    <dd class="one-info"><a href="">小米手环</a></dd>
+                                    <dd class="one-price">99元</dd>
+                                    <dd class="loveORcart">
+                                        <span class="love">35</span>人好评
+                                        <a href="" class="cart">加入购物车</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                           
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+           <!-- 尾部 -->
+           <section>
+            <div id="service">
+                <a href=""><em class="iconfont icon-weibiaoti-- "></em>预约维修服务</a><span>|</span>
+                <a href=""><em class="iconfont icon-7tiantuihuan "></em>7天无理由退货</a><span>|</span>
+                <a href=""><em class="iconfont icon-15tianwuliyoutuihuo                    "></em>15天免费换货</a><span>|</span>
+                <a href=""><em class="iconfont icon-lihe"></em>满99元包邮</a><span>|</span>
+                <a href=""><em class="iconfont icon-location"></em>520余家售后网点</a>
+            </div>
+            <div id="about">
+                <div class="about-l">
+                    <p>
+                        <em>帮助中心</em>
+                        <a href="">账户管理</a>
+                        <a href="">购物指南</a>
+                        <a href="">订单操作</a>
+                    </p>
+                    <p>
+                        <em>服务支持</em>
+                        <a href="">售后服务</a>
+                        <a href="">自助服务</a>
+                        <a href="">相关下载</a>
+                    </p>
+                    <p>
+                        <em>线下门店</em>
+                        <a href="">小米之家</a>
+                        <a href="">服务网点</a>
+                        <a href="">授权体验店</a>
+                    </p>
+                    <p>
+                        <em>关于小米</em>
+                        <a href="">了解小米</a>
+                        <a href="">加入小米</a>
+                        <a href="">投资者关系</a>
+                        <a href="">廉洁举报</a>
+                    </p>
+                    <p>
+                        <em>关注我们</em>
+                        <a href="">新浪微博</a>
+                        <a href="">官方微信</a>
+                        <a href="">联系我们</a>
+                        <a href="">公益基金会</a>
+                    </p>
+                    <p>
+                        <em>特色服务</em>
+                        <a href="">F码通道</a>
+                        <a href="">礼物码</a>
+                        <a href="">防伪查询</a>
+                    </p>
+                </div>
+                <div class="about-r">
+                    <p>400-100-5678</p>
+                    <p>8:00-18:00(仅收市话费)</p>
+                    <p><em class="iconfont"></em>人工客服</p>
+                    <p>关注小米<em class="iconfont"></em><em class="iconfont wechat"></em><img src="" alt=""></p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- footer  -->
+        <footer>
+            <div class="container">
+                <!-- ？？小米官网 -->
+                <div class="logoimg"><img src="" alt=""></div>
+                <div class="info-txt">
+                    <p>
+                        <a href="">小米商城</a>
+                        <span>|</span>
+                        <a href="">MIUI</a>
+                        <span>|</span>
+                        <a href="">米家</a>
+                        <span>|</span>
+                        <a href="">米聊</a>
+                        <span>|</span>
+                        <a href="">多看</a>
+                        <span>|</span>
+                        <a href="">游戏</a>
+                        <span>|</span>
+                        <a href="">政企服务</a>
+                        <span>|</span>
+                        <a href="">小米天猫店</a>
+                        <span>|</span>
+                        <a href="">小米集团隐私政策</a>
+                        <span>|</span>
+                        <a href="">小米公司儿童信息保护规则</a>
+                        <span>|</span>
+                        <a href="">小米商城隐私政策</a>
+                        <span>|</span>
+                        <a href="">小米商城用户协议</a>
+                        <span>|</span>
+                        <a href="">问题反馈</a>
+                        <span>|</span>
+                        <a href="">Select Location</a>
+                    </p>
+                    <p>
+                        @<a href="">mi.com</a>京ICP证110507号
+                        <a href="">京ICP备10046444号</a>
+                        <a href="">京公网安备11010802020134号</a>
+                        <a href="">京网文[2020]0276-042号</a> <br>
+                        <a href="">(京)网械平台备字(2018)第000005号</a>
+                        <a href="">互联网药品信息服务资格证（京）-非经营性-2014-0090</a>
+                        <a href="">营业执照</a>
+                        <a href="">医疗器械公告</a><br>
+                        <a href="">增值电信业务许可证</a>网络食品经营备案（京）【2018】WLSPJYBAHF-12
+                        <a href="">食品经营许可证</a><br>
+                        违法和不良经营举报电话：171-2222-5544
+                        <a href="">知识产权侵权投诉</a>本网站所列数据，除特殊说明，所有数据均出自我司实验测试
+                    </p>
+                </div>
+                <div class="info-links">
+                    <a href=""><img src="./img/f1.png" alt=""></a>
+                    <a href=""><img src="./img/f2.png" alt=""></a>
+                    <a href=""><img src="./img/f3.png" alt=""></a>
+                    <a href=""><img src="./img/f4.png" alt=""></a>
+                </div>
+            </div>
+            <div class="slogan"></div>
+
+        </footer>
+
+      
+
+
+    </main>
+</body>
+
+</html>

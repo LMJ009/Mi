@@ -1,0 +1,308 @@
+@charset "utf-8";
+#bar,#things,.box,.ads{
+    width: 1226px;
+    margin: auto;
+}
+body{
+    background-color: rgb(0, 84, 231);
+}
+
+/* fix  */
+#R-bar{
+    width: 82px;
+    border: 1px solid  rgb(245, 245, 245);
+    border-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    z-index: 999;
+    
+}
+#R-bar li{
+    width: 82px;
+    height: 90px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+
+}
+#R-bar li a{
+    display: block;
+    color: rgb(117, 117, 117);
+}
+#R-bar em, span{
+    display: block;
+}
+.last-li{
+    margin-top: 10px;
+}
+#R-bar em{
+    width: 30px;
+    height: 30px;
+    color: rgb(117, 117, 117);
+    font-size: 26px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+
+}
+#R-bar li:hover a{
+    color: rgb(255, 103, 0);
+}
+#R-bar li:hover em{
+    color: rgb(255, 103, 0);
+
+}
+
+
+
+
+header{
+    position: relative;
+    overflow: hidden;
+}
+.empty{
+    height: 280px;
+    background: #fff;
+}
+#banner{
+    position: relative;
+}
+header img{
+    width: 2560px;
+    min-height: 1px;
+    display: block;
+    border: none;
+    outline: none;
+    left: 50%;
+    margin-left: -600px;
+}
+#banner img:nth-child(1){
+    top: 0;
+    height: 336px;
+}
+#banner img:nth-child(3){
+    height: 384px;
+    top:336px ;
+}
+#bar{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -613px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+
+}
+#L a{
+    display: block;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+
+}
+#L em{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    color: #fff;
+    line-height: 44px;
+    background: rgb(255, 103, 0);;
+}
+#R{
+    width: fit-content;
+    padding-top: 20px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+#ticket{
+    position: absolute;
+    top: 50%;
+    /* margin-top: -24px; */
+    left: 50%;
+    margin-left: -80px;
+    text-align: center;
+
+}
+#ticket a{
+    color: #fff;
+    width: 160px;
+    height: 48px;
+    line-height: 48px;
+    display: block;
+    font-size: 18px;
+    background-color: rgb(255, 188, 1);
+    border-radius: 2px;
+}
+
+/* 主体部分 */
+.theme img{
+    display: block;
+    width: 100%;
+}
+.first{
+    margin-top: 315px;
+}
+
+#things{
+    padding-top: 15px;
+}
+#things li{
+    width: 606px;
+    height: 492px;
+    margin-left: 14px;
+    float: left;
+    background: #fff;
+}
+#things ul{
+    margin-left: -14px;
+}
+.thing-img{
+    display: block;
+    width: 606px;
+    height: 358px;
+    overflow: hidden;
+}
+/* 添加动画 */
+#things li a img{
+    width: 606px;
+    height: 358px;
+    transition: .6s;
+    border: 0;
+}
+
+.Desc{
+    height: 134px;
+    width: 606px;
+    padding: 35px 45px 10px 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.Desc-l{
+    width: 360px;
+    height: 53px;
+    line-height: 21px;
+}
+.Desc-l a{
+    display: block;
+    width: 300px;
+    height:33px ;
+    display: block;
+    width: fit-content;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgb(36, 36, 36);
+}
+.Desc-l p{
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    line-height: 20px;
+    width: fit-content;
+}
+.Desc-r{
+    width: 160px;
+    height: 78px;
+}
+.sign{
+    font-size: 15px;
+
+}
+.after-P{
+    font-size: 24px;
+    color: rgb(234, 98, 91);
+}
+.before-P{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    text-decoration:line-through;
+}
+.Desc-r p{
+    margin-bottom: 10px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+/* .Desc-r p span:nth-child(2){
+    margin-left: 5px;
+} */
+.Desc-r a{
+    display: block;
+    text-align: center;
+    background-color: rgb(234, 98, 91);
+    width: 160px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    color: #fff;
+}
+.box{
+    display: flex;
+}
+.box .thing-img{
+    width: 854px;
+    height: 434px;
+    display: block;
+}
+.box .thing-img img{
+    width: 854px;
+    height: 434px;
+}
+.box .Desc{
+    box-sizing: content-box;
+    padding: 105px 0 10px 42px;
+    width: 330px;
+    height: 319px;
+    text-align: left;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    
+}
+.Desc-r{
+    margin-bottom: 140px;
+}
+.Desc-r p{
+    text-align: left;
+
+}
+
+/* ads  */
+.ads a{
+    display: block;
+    height:400px;
+    margin: 25px auto;
+}
+.ads img{
+    width: 100%;
+    height: 100%;
+}
+
+/* rule  */
+.rule a{
+    display: block;
+
+}
+.rule a img{
+    margin: auto;
+    height: 139px;
+    width: 1226px;
+    display: block;
+    margin-top: -30px;
+   
+    
+}
+
+
+

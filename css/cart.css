@@ -1,0 +1,399 @@
+@charset "utf-8";
+#top,.container,.pay,.show-goods,fieldset{
+    width: 1226px;
+    margin:auto;
+}
+
+header{
+    
+    height: 100px;
+    border-bottom: solid rgb(255, 103, 0) 2px;
+    padding-top: 26px;
+
+}
+#top{
+    color: rgb(176, 176, 176);
+    font-size: 12px;
+    line-height: 18px;
+    
+}
+.logo{
+    width: 93px;
+    line-height: 18px;
+}
+.logo a{
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-color: rgb(255, 103, 0);
+}
+.logo a em{
+    display: block;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    font-size: 40px;
+    background-color: rgb(255, 103, 0);
+    margin-left: 6px;
+
+
+}
+
+#top h1{
+    font-size: 28px;
+    line-height:48px ;
+    color: rgb(66, 66, 66);
+}
+#top p{
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#top .btn{
+    line-height: 40px;
+    height: 40px;
+    margin-top: 4px;
+    display: flex;
+}
+.btn a{
+    display: block;
+    padding: 0 5px;
+    color: rgb(117, 117, 117);
+}
+
+
+/* core  */
+#page-main{
+    background-color: rgb(245, 245, 245);
+}
+.container{
+    padding-top: 30px;/*try*/
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    line-height: 21px;
+}
+
+    /* cartBox */
+#cartBox{
+    /* try  */
+    height: 500px;
+    /* background: orange; */
+
+    color: rgb(51, 51, 51);
+   
+}
+
+.cart-goods-list{
+    min-height: 1px;
+    line-height: 21px;
+    background: #fff;
+}
+
+.list-head{
+    text-align: center;
+    height: 70px;
+    display: flex;
+    padding-right: 26px;
+    border-bottom:1px solid rgb(224, 224, 224);
+}
+.check{
+    width:110px ;
+    line-height: 70px;
+    height: 70px;
+    text-align: center;
+   
+}
+.check em{
+    font-size: 20px;
+    margin: 0 15px 0 24px;
+    width: 18px;
+    height: 18px;
+    line-height: 70px;
+    border: 1px solid rgb(224, 224, 224);
+
+    /* background: red; */
+}
+.show{
+    width:120px ;
+    line-height: 70px;
+    text-align: left;
+}
+.name{
+    width:380px ;
+    line-height: 70px;
+}
+.Price{
+    width: 140px;
+    line-height: 70px;
+    padding-right: 18px;
+}
+
+.num{
+    width: 150px;
+    line-height: 70px;
+}
+.money{
+    width:120px ;
+    line-height: 70px;
+    /* padding-right: 81px; */
+}
+.operate{
+    width:80px ;
+    line-height: 70px;
+}
+.operate .icon-cuo{
+    font-size: 20px;
+}
+.operate .icon-cuo:hover{
+    color: rgb(255, 103, 0);
+}
+
+
+
+/* list-body  */
+.goods .check .icon-ok{
+    font-size: 20px;
+    color: #fff;
+}
+.goods .check .icon-ok:hover{
+    color: rgb(117, 117, 117);
+}
+.list-head .check .icon-ok:hover{
+    color: rgb(117, 117, 117);
+}
+.list-head .check .icon-ok{
+    font-size: 20px;
+    color: #fff;
+}
+
+/* ..................
+.list-body{
+    padding: 15px 26px 15px 0;
+} */
+.goods{
+    display: flex;
+    height: 86px;
+    text-align: center;
+}
+.goods li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: rgb(66, 66, 66);
+}
+.goods .name{
+    font-size: 18px;
+    
+}
+.goods .num{
+    display: flex;
+    padding-right: 0;
+}
+.num-btn{
+    font-size: 16px;
+    /* line-height: 24px; */
+    text-align: center;
+    color: rgb(66, 66, 66);
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    margin: auto;
+}
+.num a{
+    display: block;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    /* background: purple; */
+    border: 1px solid rgb(224, 224, 224);
+    color: rgb(117, 117, 117);
+    
+}
+.num a:hover{
+    background-color: rgb(224, 224, 224);
+}
+#reduce{
+    border-right: 0;
+    color: rgb(117, 117, 117);
+}
+.goods .num input{
+    border: 1px solid rgb(224, 224, 224);
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+}
+#and{
+    border-left: 0;
+}
+#goods-num{
+    width: 72px;
+    height: 40px;
+    line-height: 38px;
+}
+
+/* pay  */
+.pay{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(51, 51, 51);
+    background: #fff;
+
+    margin-top: 10px;
+
+}
+.l{
+    height: 50px;
+    font-size: 14px;
+}
+.l a{
+    display: inline-block;
+    color: rgb(51, 51, 51);
+    transition: .3s;
+    text-align: center;
+    margin-left: 32px;
+    line-height: 50px;
+}
+.l a:hover{
+    color: rgb(255, 103, 0);
+}
+
+.l p{
+    display: inline-block;
+    border-left: 1px solid rgb(238, 238, 238);
+    padding-left: 16px;
+}
+.all,.pick{
+    color: rgb(255, 103, 0);
+
+}
+.r{
+    height: 50px;
+    font-size: 14px;
+    color: rgb(255, 103, 0);
+}
+.bill{
+    font-size: 30px;
+}
+.r a{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background: rgb(255, 103, 0) ;
+    font-size: 18px;
+    transition: .3s;
+    color: #fff;
+    text-align: center;
+    margin-left: 50px;
+}
+.r a:hover{
+    background: rgb(246, 101, 4);
+}
+
+
+
+
+
+/* recommend  */
+#recommend{
+    min-height: 400px;
+    /* background: pink; */
+    padding-bottom: 40px;
+}
+fieldset{
+    margin-top: 60px;
+    border: 0;
+    border-top: 1px solid rgb(224, 224, 224) ;
+    text-align: center;
+ 
+}
+legend{
+    padding: 0 40px;
+    font-size: 30px;
+    color: rgb(117, 117, 117);
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+.show-goods{
+    position: relative;
+    min-height: 1px;
+    margin-top: 30px;
+}
+.goods-wrap{
+    margin-left: -14px;
+}
+.goods-wrap li{
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin: 0 0 14px 14px;
+    background: gray;
+}
+.goods-wrap li:first-child() a{
+    display: block;
+    width: 234px;
+    height: 300px;
+}
+.goods-wrap li:first-child() a img{
+    width: 100%;
+    height: 100%;
+}
+
+/* one  */
+.one dl{
+    width: 234px;
+    height: 300px;
+    padding: 40px 20px 15px;
+    text-align: center;
+    font-size: 14px;
+    background: #fff;
+}
+.one-img{
+    height: 145px;
+    
+}
+.one-img a{
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+}
+.one-img  img{
+    width: 140px;
+    height: 140px;
+}
+
+.one-info a{
+    height: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 21px;
+   
+}
+.one-info{
+    margin: 8px auto;
+
+}
+.one-price{
+    margin-bottom: 10px;
+    line-height: 21px;
+    font-size: 14px;
+    color: rgb(255, 103, 0) ;
+}
+
+/* loveORcart  */
+
+
+
+
+
+
+/* footer  */
+.info-txt span{
+   color: rgb(176, 176, 176);;
+}

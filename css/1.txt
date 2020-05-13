@@ -1,0 +1,63 @@
+<li class="one">
+    <dl>
+        <dt><img src="" alt=""></dt>
+        <dd class="one-info"><a href=""></a></dd>
+        <dd class="one-price"></dd>
+        <dd>
+            <span class="want">35</span>人好评
+            <a href="">加入购物车</a>
+        </dd>
+    </dl>
+</li>
+
+
+
+<div class="show-goods">
+    <ul class="goods-wrap clear_fix">
+        <li><a href=""><img src="./img/ka.jpg" alt=""></a></li>
+        <li class="one">
+            <dl>
+                <dt><img src="" alt=""></dt>
+                <dd class="one-info"><a href=""></a></dd>
+                <dd class="one-price"></dd>
+                <dd>
+                    <span class="want">35</span>人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </dl>
+        </li>
+        <li class="one">
+            <dl>
+                <dt><img src="" alt=""></dt>
+                <dd class="one-info"><a href=""></a></dd>
+                <dd class="one-price"></dd>
+                <dd>
+                    <span class="want">9</span>人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </dl>
+        </li>
+        <li class="one">
+            <dl>
+                <dt><img src="" alt=""></dt>
+                <dd class="one-info"><a href=""></a></dd>
+                <dd class="one-price"></dd>
+                <dd>
+                    <span class="want">225</span>人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </dl>
+        </li>
+        <li class="one">
+            <dl>
+                <dt><img src="" alt=""></dt>
+                <dd class="one-info"><a href=""></a></dd>
+                <dd class="one-price"></dd>
+                <dd>
+                    <span class="want">35</span>人好评
+                    <a href="">加入购物车</a>
+                </dd>
+            </dl>
+        </li>
+    </ul>
+</div>

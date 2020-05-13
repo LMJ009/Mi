@@ -1,0 +1,173 @@
+@charset "utf-8";
+a{
+    text-decoration: none;
+}
+body,html{
+    font-size: 14px;
+}
+
+#header,#mid,#footer{
+    width: 1130px;
+    margin: 0 auto;
+}
+
+/* header  */
+#header a{
+    display: block;
+    width: 200px;
+    height: 98px;
+    background-image: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png);
+}
+#header a img{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* mid  */
+#mid{
+    height: 588px;
+    overflow: auto;
+    font-size: 14px;
+}
+#userInfo{
+    width: 410px;
+    height: 588px;
+    float: right;
+    /* background: pink; */
+}
+#choice{
+    box-sizing: content-box;
+    padding: 27px 50px 24px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(102, 102, 102);
+}
+
+#account,#psw{
+    display: block;
+    width: 316px;
+    height: 48px;
+    padding-left: 13px;
+    /* padding: 13px 0 13px 14px; */
+    /* box-sizing: content-box; */
+}
+#psw{
+    margin: 15px 0 20px;
+}
+
+
+#choice span:nth-child(1){
+    color: rgb(245, 102, 0);
+}
+#choice span:nth-child(2){
+    color: rgb(224, 224, 224);
+}
+
+#userInfo input{
+    margin-left: 50px;
+
+}
+/* #userInfo input:nth-of-type(1),input:nth-of-type(2){
+    padding: 13px 14px 16px 13px;
+}  */
+/* #userInfo input:nth-of-type(2){
+    margin: 14px auto 20px;
+} */
+#userInfo #subBtn{
+    width: 316px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    background-color: rgb(255, 103, 0);
+    color: #fff;
+    border: 0;
+}
+#other{
+    display: flex;
+    justify-content: space-between;
+    width: 316px;
+    margin: 10px auto 0;
+}
+#other div:nth-child(1),#other div:nth-child(1) a{
+    color: rgb(255, 103, 0);
+}
+#other div:nth-child(2),#other div:nth-child(2) a{
+    color: rgb(153, 153, 153);
+}
+
+#ways fieldset{
+    width: 316px;
+    color: rgb(187, 187, 187);
+    margin: 143px auto 0;
+    border: 0;
+    border-top: 1px  rgb(224, 224, 224) solid;
+}
+fieldset legend{
+    margin-left:132px ;
+    margin-right: 132px;
+    color: rgb(187, 187, 187);
+    width: 84px;
+}
+#icons{
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+}
+#icons a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 3px 17px 0;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+}
+#icons a em{
+    /* width: 30px;
+    height: 30px; */
+    display: block;
+    margin:2.5px 17px 0 4px;
+    font-size: 22px;
+    color: #fff;
+    /* color: red; */
+}
+#icons a:nth-child(1){
+    background-color: rgb(2, 136, 209);
+}
+#icons a:nth-child(2){
+    background-color: rgb(211, 47, 47);
+}
+#icons a:nth-child(3){
+    background-color: rgb(0, 170, 238);
+}
+#icons a:nth-child(4){
+    background-color: rgb(0, 210, 13);
+}
+
+
+
+
+
+
+/* footer  */
+#footer{
+    color: rgb(117, 117, 117);
+    text-align: center;
+}
+#footer p:nth-child(1){
+    width: fit-content;
+    margin: 0 auto;
+}
+#footer a {
+    color: rgb(117, 117, 117);
+    display: inline-block;
+    margin: 0 10px;
+}
+#footer a:hover{
+    color: rgb(51, 51, 51);
+}
+#footer p:nth-child(2){
+    margin: 10px auto;
+}

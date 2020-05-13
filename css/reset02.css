@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* 补充了figure，和figcaption */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend,img,figure,figcaption{
+    margin:0;
+    padding:0;
+}
+/* 新增，移动端都不用减来减去，用向内生长的border-box即可 */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "微软雅黑";
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+a,u{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+strong,b{
+    font-weight: normal;
+}
+em,i{
+    font-style: normal;
+}
+img{
+    border: 0;
+}
+input{
+    outline: none;
+    /* 新增，最好转一下 */
+    display: block;
+}
+
+/* 基本用flex布局，就删掉float */
+.clear_fix:after{
+    content: ".";
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+    display: block;
+
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}

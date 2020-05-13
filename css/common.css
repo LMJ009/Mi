@@ -1,0 +1,503 @@
+@charset "utf-8";
+/* common */
+.topbar-wrap,.nav-wrap,#service,#about,footer,.container{
+    width:1226px ;
+    margin: 0 auto;
+}
+
+/* topbar */
+#topbar{
+    width: 100%;
+    background:#333;
+}
+.topbar-wrap{
+    height:40px ;
+    display: flex;
+    justify-content: space-between;
+    font-size:12px ;
+    color:  #b0b0b0 ;
+}
+.topbar-wrap li{
+    color:  #b0b0b0 ;
+    display: flex;
+    display: inline;
+}
+.topbar-wrap li:hover{
+    color: #fff;
+}
+.topbar-wrap span{
+    padding: 5px;
+    width: 1px;
+    height: 12px;
+    color: #424242;
+    /* line-height: 40px; */
+    margin: auto;
+}
+/* items  */
+.items{
+    /* width: ; */
+    height:40px ;
+    line-height: 40px;
+    display: flex;
+}
+.items span{
+    font-family: sans-serif;
+}
+
+/* info  */
+.info{
+    /* width: ; */
+    height:40px ;
+    line-height: 40px;
+    position: relative;
+    display: flex;
+}
+.cart{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    color: rgb(176, 176, 176);
+    background: #424242;
+
+}
+.cart span{
+    color: rgb(176, 176, 176);
+}
+.cart:hover{
+    background: #fff;
+    color: #ff6700;
+}
+.cart:hover em{
+    color: #ff6700;
+}
+.cart:hover li{
+    color: #ff6700;
+}
+.cart:hover span{
+    color: #ff6700;
+}
+
+.cart-info{
+   transition: 1s;
+   height: 0;
+   width: 316px;
+   background: #fff;
+   /* box-shadow: ; */  /*沙鹰*/
+   box-shadow: 0px 15px 15px rgba(32, 31, 31, 0.1);
+    position: absolute;
+    right: 0;
+    top: 40px;
+    border: 1px solid #fff;
+    border-top: 0;
+}
+.cart em{
+    font-size: 18px;
+    margin: 5px;
+    color: rgb(176, 176, 176);
+
+    
+}
+.cart-info em{
+    margin-right: 4px;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: -4px;
+}
+.cart:hover .cart-info{
+    /* 试试 */
+    height: 58px;
+    padding-top: 20px;
+    box-sizing: content-box;
+}
+
+
+
+
+
+
+/* nav  */
+#nav{
+    width: 100%;
+    background: #fff;
+}
+.nav-wrap{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    margin-top: 22px;
+    /* try  */
+    background:  rgb(255, 103, 0);
+    position: relative;
+}
+.logoBox{
+    position: absolute;
+    left: -55px;
+    width:110px;
+    display: flex;
+    transition: .5s;
+}
+.logoBox em{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: rgb(255, 103, 0);
+    color: #fff;
+    font-size: 40px;
+    margin: 8px;
+    
+}
+.logoBox:hover{
+    left: 0;
+}
+
+/* nav   */
+.nav-list{
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 12px;
+  
+}
+.nav-list li{
+    padding: 26px 10px 38px;
+    color: #333;
+}
+.nav-first{
+    position: relative;
+}
+.category{
+    position: absolute;
+    top: 88px;
+    right: -51px;
+    width: 234px;
+    height: 420px;
+    padding: 20px 0;
+    background-color: rgba(105, 101, 101, 0.6);
+    box-sizing: content-box;
+}
+.category li{
+    /* width: 204px;
+    height: 42px; */
+   
+}
+.category li a{
+    display: block;
+    width: 234px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.category li em{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-right: 18px;
+    /* ...... */
+}
+.category li:hover a{
+    background: rgb(255, 103, 0);
+
+}
+.sub-category{
+    position: absolute;
+    left: 234px;
+    top: 0;
+    height: 460px;
+    /* width: 992px; */
+    width: fit-content;
+    background: #fff;
+    /* display: none; */
+    opacity: 0;
+    display: flex;
+    /* background-color: rgba(0, 0, 0); */
+}
+.category-item:hover .sub-category{
+    /* display: block; */
+    opacity: 1;
+    z-index: 99;
+}
+.category .category-item{
+    padding: 0;
+}
+
+.Last{
+    text-decoration: none;
+    display: block;
+    color: rgb(51, 51, 51);
+}
+.sub-category li{
+    display: flex;
+    justify-content: left;
+    width: 225px;
+    height: 40px;
+    padding:18px 20px ;
+    box-sizing: content-box;
+}
+.sub-category li img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+.sub-category li p{
+    width: 172px;
+    color: rgb(51, 51, 51);
+    line-height: 40px;
+}
+.sub-category li:hover p{
+    color: rgb(255, 103, 0);
+}
+
+
+/* 最后一个有点问题 */
+
+
+/* #slider:hover .lllast a{
+    background: rgba(105, 101, 101, 0.6);
+} */
+
+
+/* slider  */
+#slider img{
+    width: 1226px;
+    height: 460px;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+
+#search{
+    width: 296px;
+    height: 50px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    display: flex;
+    border: rgb(224, 224, 224);
+    
+}
+#search:hover{
+    border: rgb(176, 176, 176);
+}
+
+#search input:nth-of-type(1){
+    width: 223px;
+    padding: 0 10px;
+    border:1px solid rgb(176, 176, 176);
+    border-right: 0;
+}
+#search input:nth-of-type(2){
+    border:1px solid rgb(176, 176, 176);
+    width: 50px;
+    background: transparent;
+}
+.icon-fangdajing_huaban1{
+    /* z-index: 999; */
+    color: rgb(97, 97, 97);
+}
+#search input:nth-of-type(2):hover{
+    background-color: rgb(255, 103, 0);
+}
+#search input:nth-of-type(2):hover .icon-fangdajing_huaban1{
+    color: #fff;
+}
+
+
+
+
+
+/* footer */
+#service{
+    font-size: 16px;
+    box-sizing: border-box;
+    /* width: fit-content; */
+    text-align: center;
+    color:  rgb(224, 224, 224);
+    font-weight: 400;
+    line-height: 21px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    
+}
+#service a{
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    text-decoration: none;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin:27px ;
+    transition: .2s;
+}
+#service a:hover{
+    color: rgba(252, 102, 1, 1);
+}
+#service a:hover em{
+    color: rgba(252, 102, 1, 1);
+}
+#service a em{
+    color: rgb(51, 51, 51);
+    font-size: 22px;
+    line-height: 25px;
+    margin-right: 5px;
+}
+
+#about{
+    font-size: 14px;
+    /* line-height: 21px; */
+    margin: 40px auto;
+    display: flex;
+
+}
+.about-l{
+    display: flex;
+}
+.about-l p{
+    width: 160px;
+    height:112px ;
+    /* border: rgba(252, 102, 1, 1) 1px solid; */
+    color: rgb(66, 66, 66);
+    
+}
+.about-l a{
+    display: block;
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+    
+    
+}
+.about-l a:hover{
+    color: rgb(255, 103, 0);
+}
+
+.about-l p em{
+    display: block;
+    margin-bottom: 24px;
+    color: rgb(66, 66, 66);
+}
+.about-r{
+    width: 251px;
+    height:112px ;
+    border-left: 1px solid rgb(224, 224, 224);
+    color: rgb(97, 97, 97);
+    text-align: center;
+    /* margin: auto; */
+}
+.about-r p:nth-child(1){
+    font-size: 22px;
+    color: rgb(255, 103, 0);
+    line-height: 22px;
+    margin-bottom: 5px;
+    
+}
+.about-r p:nth-child(2){
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 5px;   
+}
+.about-r p:nth-child(3){
+    border: 1px solid rgb(255, 103, 0);
+    color: rgb(255, 103, 0);
+    font-size: 12px;
+    line-height: 22px;
+    height: 28px;
+    width: 118px;
+    transition: .4s;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.about-r p:nth-child(3):hover{
+    background: rgb(255, 103, 0);
+    color: #fff;
+    
+}
+
+/* footer  */
+footer{
+    padding: 30px 0;
+    /* background: pink; */
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    line-height: 18px;
+}
+.slogan{
+    margin: 30px auto 0;
+    text-align: center;
+    height: 19px;
+    line-height:18px;
+    font-size: 12px;
+    background: url(https://cnbj1.fds.api.xiaomi.com/staticsfile/global/slogan2020.png) no-repeat center;
+    /* background-size: 1126px; */
+}
+.container{
+   
+    overflow: auto;
+}
+.logoimg{
+    width: 57px;
+    height: 57px;
+    margin-right: 10px;
+    /* background: orange; */
+    float: left;
+    background: url(https://s01.mifile.cn/i/logo-footer.png?v2) no-repeat;
+}
+.info-txt{
+    float: left;
+    color: rgb(176, 176, 176);
+ 
+}
+.info-txt p:nth-child(1) a{
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+}
+.info-txt p:nth-child(2) a{
+    color: rgb(176, 176, 176);
+    font-size: 12px;
+}
+.info-txt p:nth-child(1) a:hover, p:nth-child(2) a:hover{
+    color: rgb(255, 103, 0);
+    
+}
+
+/* ...   */
+.info-txt p:nth-child(2){
+    width: fit-content;
+    color: rgb(176, 176, 176);
+    /* background: red; */
+    font-size: 12px;
+}
+
+
+
+
+.info-links{
+    float: left;
+    line-height: 18px;
+    height: 28px;
+    margin-top: 4px;
+    padding-left: 67px;
+    width: 430px;
+}
+
+.info-links a{
+    display: inline-block;
+}
+.info-links a img{
+    width: 85px;
+    height: 28px;
+}

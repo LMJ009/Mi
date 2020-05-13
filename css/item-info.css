@@ -1,0 +1,476 @@
+@charset "utf-8";
+html{
+    min-height: 1000px;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* 公共 */
+.title-wrap,.tips-wrap,.price-desc-wrap,.item-info-wrap{
+    width: 1224px;
+    margin: auto;
+}
+
+
+/* 具体 */
+.title-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.title-wrap p:nth-child(2) {
+    line-height: 21px;
+    margin-top: 17px;
+}
+.title-wrap p:nth-child(2) a{
+    color: rgb(97, 97, 97);
+    font-size: 14px;
+}
+.title-wrap p:nth-child(2) a:hover{
+    color: rgb(255, 103, 0);
+
+}
+.title-wrap p:nth-child(2) span{
+    color: rgb(224, 224, 224);
+    margin-left:4px;
+    margin-right: 3.5px;
+}
+
+#title{
+    margin-top: 23px;
+    height: 63px;
+    box-shadow: 3px gray ;
+    border:1px solid  #e0e0e0;
+    border-left: 0 ;
+    border-right: 0;
+}
+.title-wrap p:nth-child(1){
+    font-size: 18px;
+    color: rgb(33, 33, 33);
+    line-height: 60px;
+}
+.title-wrap p:nth-child(1) a{
+    color: rgb(97, 97, 97);
+    font-size: 12px;
+    line-height: 18px;
+}
+.title-wrap p:nth-child(1) span{
+    color: rgb(33, 33, 33);
+    margin: 0 3px;
+    font-size: 12px;
+    line-height: 18px;
+}
+.title-wrap p:nth-child(1) a:hover{
+    color: rgb(255, 103, 0);
+}
+
+/* tips  */
+.tips-wrap{
+    height:48px ;
+    background-color: rgb(247, 247, 247);;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+}
+.tips-wrap a{
+    color: rgb(255, 103, 0);
+
+}
+.tips-wrap em{
+    /* font-size: 14px; */
+}
+
+
+/* item-info */
+.item-info-wrap{
+    min-height: 1585px;
+    /* background: gray; */
+    padding: 32px 0 12px;
+    width: 1224px;
+    display: flex;
+
+}
+#swiper{
+    height: 600px;
+    width: 606px;
+    background: pink;
+}
+#detail{
+    margin-left: 12px;
+    width: 606px;
+    /* background: orange; */
+    
+
+}
+.txt{
+    font-size: 14px;
+    border-bottom: 1px solid rgb(224, 224, 224);;
+}
+.txt h2{
+    color: rgb(33, 33, 33);
+    font-size: 24px;
+    line-height: 24px;
+    
+}
+.txt p{
+    color: rgb(176, 176, 176);
+    line-height: 21px;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.txt i{
+    color: rgb(255, 103, 0);
+    margin-top: 14px;
+    display: block;
+}
+.txt .price{
+    color: rgb(255, 103, 0);
+    margin: 12px 0 20px;
+    font-size: 18px;
+}
+
+
+.address{
+    padding: 30px 40px 30px 50px;
+    /* width: ;
+    height: ; */
+    background-color: rgb(250, 250, 250);
+    border: 1px solid  rgb(224, 224, 224);
+    position: relative;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    line-height: 21px;
+    margin-bottom: 25px;
+}
+.address em{
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+    position: absolute;
+    top:26px ;
+    left:20px
+}
+.address div:nth-of-type(1){
+    /* width: auto; */
+    display: flex;
+}
+.addr span{
+    margin-right: 14px;
+}
+.update{
+    color: rgb(255, 103, 0);
+    /* line-height: 14px; */
+}
+
+.product-status{
+    color: rgb(255, 103, 0);
+
+}
+
+/* choose  */
+#choose{
+    color: rgb(51, 51, 51);
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+.choose-name{
+    font-size: 18px;
+    line-height: 18px;
+}
+#choices{
+    overflow: hidden;
+    margin-left: -6px;
+}
+#choices li{
+    float: left;
+    /* rgb(255, 103, 0) */
+    border:1px solid  rgb(224, 224, 224);
+    width: 298px;
+    height: 42px;
+    line-height: 42px;
+    margin: 15px 0 0 6px;
+    text-align: center;
+   
+} 
+#choices li a{
+    color: rgb(51, 51, 51);
+}
+
+#choices a img{
+    height: 16px;
+    width: 16px;
+    line-height: 42px;
+}
+/* #choices li a{
+    text-decoration: none;
+    color: ;
+} */
+
+.name{
+
+    font-size: 16px;
+    width: 170px;
+    /* color: rgb(255, 103, 0); */
+
+    text-align: center;
+    padding: 20px;
+}
+.money{
+    font-size: 16px;
+    
+    color: rgb(176, 176, 176);
+
+}
+#choices li:hover{
+    border-color: rgb(255, 103, 0);
+
+}
+#choices li:hover .name{
+    color: rgb(255, 103, 0); 
+}
+#choices li:hover .money{
+    color: rgb(117, 117, 117);
+}
+
+#total{
+    padding: 30px;
+    margin-bottom: 30px;
+    /* background: palevioletred; */
+    background-color: rgb(249, 249, 250);
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+    line-height: 30px;
+}
+#total p:nth-child(1) span{
+    display: block;
+}
+#total p:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#total p:nth-child(2){
+    font-size: 24px;
+    margin-top: 20px;
+    line-height: 30px;
+    color: rgb(255, 103, 0);
+}
+
+
+
+#addCart{
+    margin: 10px auto 20px;
+    height: 54px;
+    display: flex;
+}
+#addCart a{
+    display: block;
+    transition-duration: 0.4s;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);;
+}
+#addCart a:nth-child(1){
+    width: 298px;
+    border: 1px solid rgb(255, 103, 0);
+    background-color: rgb(255, 103, 0);
+    margin-right: 10px;
+}
+#addCart a:nth-child(1):hover{
+    background: rgba(242, 88, 7, 1);
+}
+
+#addCart a:nth-child(2){
+    background-color: rgb(176, 176, 176);
+    width:140px;
+    transition: .4s;
+}
+#addCart a:nth-child(2):hover{
+    background-color: rgb(117, 117, 117);
+}
+#addCart em{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+
+
+
+#policy{
+    height: 200px;
+}
+#policy li{
+    float: left;
+}
+#policy li a{
+    color: rgb(176, 176, 176);
+    display: block;
+    margin:  0 15px 10px 0;
+    line-height: 30px;
+}
+#policy li a em{
+    font-size: 20px;
+    display: inline-block;
+}
+#policy li a span{
+    margin-left: 2px;
+}
+
+
+
+/* info-txt */
+.info-txt span{
+    color: rgb(176, 176, 176);
+}
+
+
+/* 意外险 */
+.sub{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.sub h3{
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+.sub a{
+    display: block;
+    font-size: 14px;
+    color: rgb(255, 103, 0);
+}
+.insurance{
+    width: 606px;
+    display: flex;
+    flex-direction: column;
+}
+.insurance li{
+    padding: 30px 0 30px 30px;
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(224, 224, 224);;
+}
+.insurance li i{
+    margin-top: 10px;
+    /* background: orange; */
+    /* background-color: rgb(255, 103, 0); */
+    font-size: 12px;
+    width: 36px;
+    height: 36px;
+    
+}
+.insurance li i em{
+    font-size: 12px;
+    background: #fff;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 100%;
+    /* padding: 5px; */
+}
+/* .insurance li i em:active{
+    background-color: rgb(255, 103, 0);
+} */
+
+
+
+.insurance li img{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px 0 10px;
+}
+.text{
+    padding-top: 10px;
+    width: 370px;
+    /* color: rgb(255, 103, 0); */
+}
+.text p:nth-of-type(1){
+    font-size: 18px;
+    /* margin-bottom: 10px; */
+    /* color: rgb(255, 103, 0); */
+    color: rgb(51, 51, 51);
+}
+.text p:nth-of-type(2){
+    font-size:14px;
+    color: rgb(176, 176, 176);
+    margin-bottom: 5px;
+}
+.text p:nth-of-type(3){
+    font-size: 14px;
+    color: rgb(117, 117, 117);
+    line-height: 21px;
+}
+.text p:nth-of-type(3) em{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid  rgb(176, 176, 176);
+    background: #fff;
+    transform: translateY(2px);
+}
+.text p:nth-of-type(3) a{
+    display: inline-block;
+    color: rgb(255, 103, 0);
+}
+.text p:nth-of-type(3)  span{
+    margin: 0 5px;
+}
+.text p:nth-of-type(3) span:nth-of-type(2){
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+}
+
+
+/* price-desc  */
+#price-desc{
+    background:#f5f5f5;
+
+}
+.price-desc-wrap{
+    height: 316px;
+    padding-bottom: 50px;
+}
+.price-desc-wrap h3{
+    font-size: 22px;
+    padding: 22px 0;
+}
+.price-desc-wrap p{
+    font-size: 14px;
+    background: #fff;
+    line-height: 21px;
+    height: 189px;
+    padding: 35px 100px;
+}
+.price-desc-wrap span{
+    font-weight: 700;
+}
+
+
+/* ..... */
+.category{
+    display: none;
+    border: 1px solid rgb(255, 103, 0);
+    background: #fff;
+}
+.category a span,.category a em{
+    color: rgb(66, 66, 66);
+
+}
+
+.nav-first:hover .category{
+    display: block;
+}
+.category-item a:hover span{
+    color: #fff;
+}
+.category-item a:hover  em{
+    color: #fff;
+}
+
